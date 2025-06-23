@@ -36,8 +36,8 @@ Managing navigation and state in a production-like environment.
 
 **2. Main Pages**
 
-![image](https://github.com/user-attachments/assets/d6c022a9-f0ba-4c9c-9ebd-9c48c612e0d0)  ![image](https://github.com/user-attachments/assets/799aa487-1275-4ca4-a560-b1d2b6fc7a28)
-![image](https://github.com/user-attachments/assets/c931a3aa-dc44-45e3-85e5-7a5dfbd0c4d7)  ![image](https://github.com/user-attachments/assets/037ca46e-16b0-4676-898a-b55591a65dd1)
+![image](https://github.com/user-attachments/assets/d6c022a9-f0ba-4c9c-9ebd-9c48c612e0d0) ![image](https://github.com/user-attachments/assets/799aa487-1275-4ca4-a560-b1d2b6fc7a28)
+![image](https://github.com/user-attachments/assets/c931a3aa-dc44-45e3-85e5-7a5dfbd0c4d7) ![image](https://github.com/user-attachments/assets/037ca46e-16b0-4676-898a-b55591a65dd1)
 
 **3. Appwrite Database**
 ![image](https://github.com/user-attachments/assets/01d44867-8d8d-4cfb-855b-8aefa8a3e6d3)
