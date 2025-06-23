@@ -1,4 +1,4 @@
-# Welcome to your Expo app 👋
+![image](https://github.com/user-attachments/assets/d7f84462-99b8-4f76-96ea-7157d8072291)![image](https://github.com/user-attachments/assets/8f988e86-9fca-47f5-886a-775ef758a382)# Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
@@ -16,35 +16,57 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+**My Study Pal**
+A cross-platform mobile app to help students organize their academic life by managing subjects, exams, and tasks efficiently.
+🚀 Features
+User Authentication: Secure sign-up and login using Clerk.
+Dashboard: Central hub displaying upcoming exams, pending tasks, and subject summaries.
+Subjects Management: Add, view, and organize academic subjects.
+Exams Tracking: Track upcoming exams with details and reminders.
+Tasks Management: Create, update, and complete academic tasks and assignments.
+Profile Management: Manage user profile information.
 
-When you're ready, run:
+**🛠️ Tech Stack**
+React Native (with Expo) — UI and cross-platform development
+Expo Router — File-based navigation
+Clerk — Authentication and user management
+React Query — Data fetching, caching, and synchronization
+Appwrite — Backend database and collections
+Custom Hooks & Components — For modular, maintainable code
 
-```bash
-npm run reset-project
-```
+**🧑‍💻 Development Notes**
+Authentication: Managed via Clerk, with hooks for sign-in and sign-up.
+Data Layer: All CRUD operations for subjects, exams, and tasks are handled via custom hooks using React Query and Appwrite.
+Navigation: Expo Router provides file-based navigation for a scalable structure.
+Styling: Consistent color schemes and responsive layouts using React Native’s StyleSheet.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**📚 Learning Outcomes**
+Building scalable mobile apps with React Native and Expo.
+Implementing secure authentication and real-time data synchronization.
+Structuring backend data with Appwrite collections.
+Writing modular, reusable components and hooks.
+Managing navigation and state in a production-like environment.
 
-## Learn more
 
-To learn more about developing your project with Expo, look at the following resources:
+**1.	Signup and Login Page**
+![image](https://github.com/user-attachments/assets/eb0736b6-0c72-4440-9531-c9f3ba7a8c4f)   ![image](https://github.com/user-attachments/assets/fcfaea76-3628-4960-bcb8-2f6838d44476)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**2. Main Pages**
+![image](https://github.com/user-attachments/assets/d6c022a9-f0ba-4c9c-9ebd-9c48c612e0d0)   ![image](https://github.com/user-attachments/assets/799aa487-1275-4ca4-a560-b1d2b6fc7a28)
+![image](https://github.com/user-attachments/assets/c931a3aa-dc44-45e3-85e5-7a5dfbd0c4d7)   ![image](https://github.com/user-attachments/assets/037ca46e-16b0-4676-898a-b55591a65dd1)
 
-## Join the community
+**3. Appwrite Database**
+![image](https://github.com/user-attachments/assets/01d44867-8d8d-4cfb-855b-8aefa8a3e6d3)
+![image](https://github.com/user-attachments/assets/23426318-4e31-4ff4-b78e-9ff5f777a4d6)
+![image](https://github.com/user-attachments/assets/58494053-44d7-4701-8b0e-a41eb221ff44)
+![image](https://github.com/user-attachments/assets/2874ffeb-5c57-4dc9-801d-44404ad4ed76)
+![image](https://github.com/user-attachments/assets/a41b3483-bfe1-4f13-af08-e7681b2c3ef1)
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+
