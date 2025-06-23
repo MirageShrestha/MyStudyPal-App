@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "my-study-pal",
+    "slug": "my-study-pal",
+    "version": "1.0.0",
+    "scheme": "mystudypal",
+    "extra": {
+      "clerkPublishableKey": "pk_test_aW50ZWdyYWwtZmlzaC04NC5jbGVyay5hY2NvdW50cy5kZXYk",
+      "orientation": "portrait",
+      "icon": "./assets/images/icon.png",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/images/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        },
+        "edgeToEdgeEnabled": true
+      },
+      "web": {
+        "bundler": "metro",
+        "output": "static",
+        "favicon": "./assets/images/favicon.png"
+      },
+      "plugins": [
+        "expo-router",
+        [
+          "expo-splash-screen",
+          {
+            "image": "./assets/images/splash-icon.png",
+            "imageWidth": 200,
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+          }
+        ],
+        "expo-secure-store",
+        "expo-web-browser"
+      ],
+      "experiments": {
+        "typedRoutes": true
+      }
+    }
+  }
+}
